@@ -1,0 +1,64 @@
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.post {
+  border: 1px solid gray;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.post-text {
+  margin: 0 15px 15px 15px;
+}
+
+.post-image {
+  text-align: center;
+}
+
+.ex-image {
+  max-width: 540px;
+  max-height: 1000px;
+}
+
+.submit {
+  margin-bottom: 25px;
+}
+
+textarea {
+  width: 600px;
+  height: 200px;
+  padding: 0;
+}
+
+.form-file {
+  margin-top: 10px;
+}
+
+.form-submit {
+  margin-top: 10px;
+}
+
+.tools {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.add-star:before {
+  content: "★";
+  color: yellow;
+}
+
+.add-star {
+  cursor: pointer;
+}
+
+.add-star:hover {
+  text-decoration: underline;
+}
